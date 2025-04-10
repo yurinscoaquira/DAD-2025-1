@@ -31,7 +31,7 @@ public class ClienteController {
     }
 
     @PutMapping("/{id}")
-    public Cliente actualizar(@PathVariable Integer id, @RequestBody Cliente categoria) {
+    public Cliente actualizar(@PathVariable Integer id, @RequestBody Cliente cliente) {
         return clienteService.actualizar(id, cliente);
     }
 
