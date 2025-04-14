@@ -1,9 +1,9 @@
 server:
 
-  port: 8081
+  port: 8082
 spring:
   datasource:
-    url: jdbc:h2:mem:ms_pagos-service
+    url: jdbc:h2:mem:ms-venta-service
     driver-class-name: org.h2.Driver
     username: sa
     password: password
